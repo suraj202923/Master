@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ACL-288\\SQL2022EX;initial catalog=Znode_Multifront_975_B2B;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0YzMxYzliNi03ZjA2LTQxMzktODI3ZC0yYWViMTA3MGMwYWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "copydatefromlocal",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
