@@ -43,7 +43,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('todaysxmls').output.itemName",
+						"value": "@activity('todaysxmls').output.childItems",
 						"type": "Expression"
 					},
 					"activities": [
