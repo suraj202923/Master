@@ -63,7 +63,7 @@
 								"notebookPath": "/Users/info@icarefurnishers.com/ReadXml",
 								"baseParameters": {
 									"filename": {
-										"value": "@item().itemName",
+										"value": "@item().name",
 										"type": "Expression"
 									}
 								}
