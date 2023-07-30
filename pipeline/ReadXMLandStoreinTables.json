@@ -43,7 +43,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('todaysxmls').output.childItems.name",
+						"value": "@activity('todaysxmls').output.childItems",
 						"type": "Expression"
 					},
 					"activities": [
@@ -63,7 +63,7 @@
 								"notebookPath": "/Users/info@icarefurnishers.com/ReadXml",
 								"baseParameters": {
 									"filename": {
-										"value": "@item().itemName",
+										"value": "@item().name",
 										"type": "Expression"
 									}
 								}
